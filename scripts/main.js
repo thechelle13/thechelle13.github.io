@@ -1,59 +1,29 @@
-
 const mainContainer = document.querySelector("#container");
 
-const applicationHTML = `
-    ${Navbar()}
-    ${Home()}
+// Define the navigateTo function
+function navigateTo(section) {
+    switch (section) {
+        case 'home':
+            mainContainer.innerHTML = Home();
+            break;
+        case 'about':
+            mainContainer.innerHTML = About();
+            break;
+        default:
+            console.log('Invalid section');
+    }
+}
 
-`;
+// // Create the Navbar and append it to the mainContainer
+// mainContainer.appendChild(Navbar());
 
-mainContainer.innerHTML = applicationHTML;
+// // Initially display the Home section
+// mainContainer.innerHTML += Home();
 
-// const mainContainer = document.querySelector("#container");
+// Initially display the Home section
+mainContainer.innerHTML += Home();
 
-// function renderPage(pageContent) {
-//     mainContainer.innerHTML = pageContent;
-// }
+// Create the Navbar and append it to the mainContainer
+mainContainer.appendChild(Navbar());
 
-// function handleHashChange() {
-//     const hash = window.location.hash;
 
-//     switch (hash) {
-//         case '#home':
-//             renderPage(Home());
-//             break;
-//         case '#about':
-//             renderPage(About());
-//             break;
-//         default:
-//             renderPage(Home());
-//     }
-// }
-
-// function attachEventListeners() {
-//     const homeLink = document.querySelector("a[href='#home']");
-//     const aboutLink = document.querySelector("a[href='#about']");
-
-//     if (homeLink && aboutLink) {
-//         homeLink.addEventListener("click", function (event) {
-//             event.preventDefault();
-//             renderPage(Home());
-//             window.location.hash = 'home';
-//         });
-
-//         aboutLink.addEventListener("click", function (event) {
-//             event.preventDefault();
-//             renderPage(About());
-//             window.location.hash = 'about';
-//         });
-
-//         // Listen for hash changes
-//         window.addEventListener('hashchange', handleHashChange);
-//     }
-// }
-
-// // Attach event listeners after the DOM and all resources are fully loaded
-// window.onload = function () {
-//     // Load the Home page by default
-//     renderPage(Home());
-// }
