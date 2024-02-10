@@ -1,7 +1,7 @@
 /* navbar.css */
 .navbar {
     position: fixed;
-    top: 0;
+    top: 50px;
     left: 0;
     width: 100%;
     background-color: #333;
@@ -17,11 +17,11 @@
 
 .navbar ul li {
     display: inline-block;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .navbar ul li a {
-    color: white;
+    color: rgb(238, 237, 245);
     text-decoration: none;
 }
 
