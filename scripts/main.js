@@ -2,26 +2,58 @@
 const mainContainer = document.querySelector("#container");
 
 const applicationHTML = `
-    <div class="welcome-container">
-        <h1>
-            <span class="welcome-title">Welcome </span>
-            <span>to</span>
-            <span>Community Pets</span>
-        </h1>
-        <div class="dog-images">
-            <img class="app-logo" src="../assets/IMG_1440.jpeg" alt="Sleepy Doggy" />
-        </div>
-        <div class="welcome-about">
-            <h2>A practice static site built with Github Pages to show a simple deploy.</h2>
-        </div>
-        <div class="form"> 
-            <section class="form-group">
-                <!-- Your form elements go here -->
-            </section> 
-        </div>
-    </div>
+    ${Navbar()}
+    ${Home()}
+
 `;
 
 mainContainer.innerHTML = applicationHTML;
 
+// const mainContainer = document.querySelector("#container");
 
+// function renderPage(pageContent) {
+//     mainContainer.innerHTML = pageContent;
+// }
+
+// function handleHashChange() {
+//     const hash = window.location.hash;
+
+//     switch (hash) {
+//         case '#home':
+//             renderPage(Home());
+//             break;
+//         case '#about':
+//             renderPage(About());
+//             break;
+//         default:
+//             renderPage(Home());
+//     }
+// }
+
+// function attachEventListeners() {
+//     const homeLink = document.querySelector("a[href='#home']");
+//     const aboutLink = document.querySelector("a[href='#about']");
+
+//     if (homeLink && aboutLink) {
+//         homeLink.addEventListener("click", function (event) {
+//             event.preventDefault();
+//             renderPage(Home());
+//             window.location.hash = 'home';
+//         });
+
+//         aboutLink.addEventListener("click", function (event) {
+//             event.preventDefault();
+//             renderPage(About());
+//             window.location.hash = 'about';
+//         });
+
+//         // Listen for hash changes
+//         window.addEventListener('hashchange', handleHashChange);
+//     }
+// }
+
+// // Attach event listeners after the DOM and all resources are fully loaded
+// window.onload = function () {
+//     // Load the Home page by default
+//     renderPage(Home());
+// }
