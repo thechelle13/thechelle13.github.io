@@ -38,3 +38,7 @@
     animation: float 4s ease-in-out infinite;
     width: 200px;
   }
+
+  body {
+    background-color: rgb(169, 169, 240);
+}
