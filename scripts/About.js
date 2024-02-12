@@ -20,7 +20,7 @@ function About() {
 
             <div>
                 <h3>TechPower Client and API:</h3>
-                <p style="font-size: 20px;">A Full Stack project using React, JS, Tailwind, Python and Django to create a modern well-rounded project. This project is complete and is currently being deployed on Digital Ocean. The GitHub link to the code for the client side is <a href="https://github.com/thechelle13/tech-client">https://github.com/thechelle13/tech-client</a>, and for the API is <a href="https://github.com/thechelle13/tech-api">https://github.com/thechelle13/tech-api</a>. The active deployed Client side is <a href="https://tech-client-er3ag.ondigitalocean.app/">https://tech-client-er3ag.ondigitalocean.app/</a>. However, please note that the backend API is still under development. Once completed, the application will be fully functional. Stay tuned for further updates.</p>
+                <p style="font-size: 20px;">A Full Stack project using React, JS, Tailwind, Python and Django to create a modern well-rounded project. This project is in progress of being deployed on Digital Ocean. The GitHub link to the code for the client side is <a href="https://github.com/thechelle13/tech-client">https://github.com/thechelle13/tech-client</a>, and for the API is <a href="https://github.com/thechelle13/tech-api">https://github.com/thechelle13/tech-api</a>. The active deployed Client side is <a href="https://tech-client-er3ag.ondigitalocean.app/">https://tech-client-er3ag.ondigitalocean.app/</a>. However, please note that the backend API is still under development. Once completed, the application will be fully functional. Stay tuned for further updates.</p>
             </div>
            
         </div>
