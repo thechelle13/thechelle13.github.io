@@ -40,5 +40,8 @@
   }
 
   body {
-    background-color: rgb(169, 169, 240);
-}
+    background-image: url('../assets/IMG_5138.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(169, 169, 240); 
+  }
