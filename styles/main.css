@@ -25,10 +25,12 @@
     font-style: italic;
   }
 
-  .app-logo {
-    height: 40vmin;
-    pointer-events: none;
+  @media (max-width: 768px) { 
+    .app-logo {
+      height: 200px; 
+    }
   }
+  
 
   .about {
     font-family: "Quicksand", sans-serif;
