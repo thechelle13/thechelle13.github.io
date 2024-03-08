@@ -19,13 +19,13 @@ function navigateTo(section) {
 
 function Navbar() {
     return `
-        <nav class="navbar">
-            <ul>
-                <li><a href="#" onclick="navigateTo('home')">Home</a></li>
-                <li><a href="#" onclick="navigateTo('about')">About</a></li>
-                <li><a href="#" onclick="navigateTo('resume')">Resume</a></li>
-            </ul>
-        </nav>
+    <nav class="navbar">
+    <ul class="nav-links">
+        <li><a href="#" onclick="navigateTo('home')">Home</a></li>
+        <li><a href="#" onclick="navigateTo('about')">About</a></li>
+        <li><a href="#" onclick="navigateTo('resume')">Resume</a></li>
+    </ul>
+</nav>
     `;
 }
 
