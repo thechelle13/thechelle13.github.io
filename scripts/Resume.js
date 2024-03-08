@@ -2,7 +2,8 @@ function Resume() {
     return `
     <div class="resume-container">
     <div class="profile">
-        <h1>Michelle Totherow - Certified Full Stack Web Developer</h1>
+    <h1>Michelle Totherow</h1>
+    <h2>Certified Full Stack Web Developer</h2>
         <p>Results-driven and detail-oriented Software Developer with a diverse background and a proven track record of successfully transitioning from a thriving sole proprietorship to mastering Full Stack Software Development. I bring hands-on experience in Python, Django, React, and more, coupled with strong project self-management and problem-solving skills. As a former Pawn Broker certified in gun safety and transactions, I showcase meticulous attention to detail. By successfully managing a thriving dog sitting business, I've demonstrated adaptability and a commitment to continuous long-term goals. This background positions me as a versatile and dedicated professional ready to contribute to dynamic software development projects.</p>
         <p>Connect with me on <a href="https://www.linkedin.com/in/michelletotherow/" target="_blank">LinkedIn</a> or visit my <a href="https://www.michelletotherow.com/" target="_blank">personal website</a>.</p>
     </div>

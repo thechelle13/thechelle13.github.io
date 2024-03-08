@@ -1,7 +1,7 @@
 function Home() {
     return `
         <div class="welcome-container">
-            <h2>Welcome to Our Website!</h2>
+            <h2>Welcome to My Website!</h2>
             <div class="nash-images">
                 <img class="app-logo" src="../assets/IMG_2222.jpg" alt="Nashville" />
             </div>
