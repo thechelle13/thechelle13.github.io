@@ -10,6 +10,9 @@ function Home() {
                 <p>This website showcases various projects and serves as a platform for learning web development techniques and best practices.</p>
                 <p>Feel free to explore my site and check out the different sections to learn more about my projects and services.</p>
             </div>
+            <div>
+            <audio src="https://ia800600.us.archive.org/10/items/78_down-in-nashville-tennessee-chick-a-ling-bone_dinah-shore-and-the-mellowmen-henr_gbia0028615b/Down%20in%20Nashville%2C%20Tenness%20-%20Dinah%20Shore%20and%20The%20Mellowmen.mp3" type="audio/mpeg" controls>
+         </div>
         </div>
     `;
 }
