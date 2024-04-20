@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Practice Deploy is a project created to demonstrate my initial deployment experience using GitHub Pages. The project incorporates a fixed photo of my cat, Purrscilla, who has been a constant companion throughout my coding journey. Enjoy exploring the site, and feel free to provide feedback!
+Practice Deploy is a project created to demonstrate my initial deployment experience using GitHub Pages. The project incorporates a fixed photo of my cat, Purrscilla, who has been a constant companion throughout my coding journey. I regularly update and enhance the site as part of my ongoing practice. Enjoy exploring the site, and feel free to provide feedback!
 
 ## Deployed Link
 
