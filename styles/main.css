@@ -1,5 +1,5 @@
 .welcome-container {
-  margin-top: 10rem ; 
+  margin-top: 1rem ; 
   margin-bottom: 10rem ;
   width: 60%;
   margin-left: auto; 
@@ -7,27 +7,22 @@
   text-align: center;
   padding: 5rem 3rem;
   border: 1px solid var(--outline);
-  background-color: rgb(33, 224, 65);
   border-radius: 0.5rem;
   box-shadow: 1pc 3px 4px grey;
 }
 
-/* .corner {
-  position: fixed;
-  right: -200px;
-} */
-
 .bottom {
   position: fixed;
-  bottom: -100px; 
-  right: -180px; 
+  bottom: -20px; 
+  right: -60px; 
+
 }
   
   /* This targets any h1 that is a child of an element with the .welcome-container class */
   .welcome-container > h1 {
     display: flex;
     flex-direction: column;
-    color:  rgb(72, 0, 255);
+ 
   }
   
   /* This targets any div that is a child of an element with the .welcome-container class */
@@ -60,29 +55,22 @@ p {
     width: 200px;
   }
 
-  body {
-    background-image: url('../assets/IMG_5138.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(97, 143, 195); 
-    margin: 0;
-    padding: 0;
-  }
-
+ 
   .about-container {
-    margin-top: 100px;
+    margin-top: 1rem ; 
     margin-bottom: 5rem;
     width: 80%; 
     margin-left: auto;
     margin-right: auto;
+    padding: 3rem;
 }
 
 .welcome-container, .project-container {
-    padding: 3rem;
+    padding: 1rem;
     border: 1px solid var(--outline);
     background-color: rgb(95, 170, 224);
     border-radius: 0.5rem;
-    box-shadow: 1pc 3px 4px grey;
+    box-shadow: 1pc 3px 4px rgb(61, 61, 61);
     margin-bottom: 2rem; 
 }
 
@@ -101,10 +89,11 @@ p {
 }
 
 .resume-container {
-  margin-top: 100px;
-  padding: 20px;
+  margin-top: 1rem ; 
+  margin-left: auto;
+  margin-right: auto;
   max-width: 800px; 
-
+  padding: 3rem;
 .profile h2 {
   margin-top: 0;
 }
@@ -125,4 +114,38 @@ p {
 .section div h4 {
   margin-top: 0;
 }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#background-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgb(97, 143, 195), #1628c8);
+  z-index: -1;
+}
+
+.project-link {
+  color: #aeabab;
+  text-decoration: underline;
+}
+
+.project-link:hover {
+  color: #f0f0f0;
+}
+
+.audio-container {
+  margin-top: 30px;
+}
+audio {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
