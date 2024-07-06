@@ -31,12 +31,21 @@ function About() {
 
                 <div class="section">
                 <div class="project">
-                    <h3>Bake Shop:</h3>
+                    <h3>Bake Shop: front-end using code</h3>
                     <ul>
                         <li>A project built in React using JS, HTML, and Tailwind to create a front-end app that provides information about the background, products, locations, and social links for a bake-shop.</li>                      
                         <li>The link to explore the code on GitHub for this project is <a href="https://github.com/thechelle13/bake-shop" class="project-link">https://github.com/thechelle13/bake-shop</a>.</li>
                     </ul>
                     <div>Deployed Project: <a href="https://offplumbakeshop-sty2x.ondigitalocean.app/" class="project-link">https://offplumbakeshop-sty2x.ondigitalocean.app/</a></div>
+                </div>
+
+                <div class="project">
+                    <h3>Bake Shop: front-end using no code</h3>
+                    <ul>
+                        <li>A project built using Google Sites to create a front-end app that provides client with a more personalized url address and ability to monitor, update themselves.</li>                      
+                        <li>The link to explore the no code for this deployed project is <a href="https://www.offplum.com" class="project-link">https://www.offplum.com</a>.</li>
+                    </ul>
+        
                 </div>
 
                 <div class="project">
@@ -47,6 +56,16 @@ function About() {
                  
                     </ul>
                     <div>Deployed Project: <a href="https://tech-client-er3ag.ondigitalocean.app/" class="project-link">https://tech-client-er3ag.ondigitalocean.app/</a></div>
+                </div>
+
+                 <div class="project">
+                    <h3>Personal Planner Client and API:</h3>
+                    <ul>
+                        <li>A Full Stack project using React, JS, Tailwind, Python, and Django to create a modern well-rounded project.</li>
+                        <li>The GitHub link to the code for the client side is <a href="https://github.com/thechelle13/PersonalPlannerClient" class="project-link">https://github.com/thechelle13/PersonalPlannerClient</a>, and for the API is <a href="https://github.com/thechelle13/PersonalPlannerAPI" class="project-link">https://github.com/thechelle13/PersonalPlannerAPI</a>.</li>
+                 
+                    </ul>
+                    <div>Deployed Project: <a href="https://personal-planner-hryyx.ondigitalocean.app/" class="project-link">https://personal-planner-hryyx.ondigitalocean.app/</a></div>
                 </div>
             </div>
         </div>
