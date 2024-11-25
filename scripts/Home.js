@@ -1,21 +1,14 @@
 function Home() {
     return `
         <div class="welcome-container">
-            <h2>Welcome to My Website!</h2>
+            <h2>Michelle J. Totherow: Full Stack Web Developer!</h2>
             <div class="nash-images">
-                <img class="app-logo" src="../assets/IMG_2222.jpg" alt="Nashville" />
+                <img class="app-logo" src="../assets/IMG_2222.jpg" alt="Cityscape of Nashville" />
             </div>
             <div class="welcome-about">
-                <p>This is a practice static site built with GitHub Pages to demonstrate a deployed website using HTML, CSS, and JavaScript.</p>
-                <p>This website showcases various projects and serves as a platform for learning web development techniques and best practices.</p>
-                <p>Feel free to explore my site and check out the different sections to learn more about my projects and services.</p>
+                <p>This portfolio showcases my work as a full-stack web developer, highlighting projects and skills in modern web technologies, including HTML, CSS, and JavaScript. Dive into my projects to learn how I bring ideas to life through clean code and user-centered design.</p>
             </div>
-            <div class="audio-container">
-                <audio controls>
-                    <source src="https://ia800600.us.archive.org/10/items/78_down-in-nashville-tennessee-chick-a-ling-bone_dinah-shore-and-the-mellowmen-henr_gbia0028615b/Down%20in%20Nashville%2C%20Tenness%20-%20Dinah%20Shore%20and%20The%20Mellowmen.mp3" type="audio/mpeg">
-                    Your browser does not support the audio element.
-                </audio>
-            </div>
+           
         </div>
     `;
 }
