@@ -1,71 +1,96 @@
 function About() {
     return `
         <div class="about-container">
+            <!-- Introduction Section -->
             <div class="section">
-                <h1>About this site:</h1>
-                <p>This static site was created using HTML, CSS, and JavaScript and deployed via GitHub Pages. The journey of production involved challenges, particularly in remembering the basics and understanding how each component communicates. These concepts are the foundations of modern technologies such as React.</p>
-                <p>While React offers numerous benefits, such as component reusability and a more organized structure, getting back to the basics and understanding fundamental concepts was the goal of this exercise.</p>
-                <p>Despite not utilizing React or other modern frameworks, this site aims to demonstrate the power of traditional web technologies through continuous practice and exploration.</p>
+                <h1>About This Portfolio</h1>
+                <p>This portfolio showcases my skills and projects as a web developer. Built using HTML, CSS, and JavaScript, and deployed via GitHub Pages, this site reflects my ability to create professional and functional websites from scratch.</p>
+                <p>The journey of creating this site highlights my foundational knowledge and my commitment to revisiting core web technologies to strengthen my expertise beyond frameworks like React.</p>
             </div>
 
+            <!-- Projects Section -->
             <div class="section">
-                <h1>Current Projects:</h1>
+                <h1>Highlighted Projects</h1>
+
+                <!-- Weather App -->
                 <div class="project">
-                    <h3>Weather App:</h3>
+                    <h3>Weather App</h3>
                     <ul>
-                        <li>A project built in React using JS, HTML, and Tailwind to create a working app that fetches the weather based on the zip code entered by the user.</li>
-                        <li>The app then reaches out to RapidAPI to retrieve the weather for that zip code.</li>
-                        <li>The link to explore the code on GitHub for this project is <a href="https://github.com/thechelle13/weather-client" class="project-link">https://github.com/thechelle13/weather-client</a>.</li>
+                        <li>React-based app fetching real-time weather using RapidAPI.</li>
+                        <li>Features a clean UI styled with Tailwind CSS.</li>
+                        <li>
+                            <strong>GitHub:</strong> 
+                            <a href="https://github.com/thechelle13/weather-client" class="project-link">weather-client</a>
+                        </li>
+                        <li>
+                            <strong>Live Demo:</strong> 
+                            <a href="https://weather-8usah.ondigitalocean.app/" class="project-link">View App</a>
+                        </li>
                     </ul>
-                    <div>Deployed Project: <a href="https://weather-8usah.ondigitalocean.app/" class="project-link">https://weather-8usah.ondigitalocean.app/</a></div>
                 </div>
 
+                <!-- Personal Planner -->
                 <div class="project">
-                    <h3>Personal Planner Client and API:</h3>
+                    <h3>Personal Planner Client & API</h3>
                     <ul>
-                        <li>A team collaboration using React, JS, Tailwind, Python, and Django to create a Full Stack project.</li>
-                        <li>The GitHub link to explore this project is at <a href="https://github.com/thechelle13/PersonalPlannerClient" class="project-link">https://github.com/thechelle13/PersonalPlannerClient</a>.</li>
+                        <li>Full Stack project built with React, Django, and Tailwind CSS.</li>
+                        <li>Collaboration-focused app for managing personal tasks and schedules.</li>
+                        <li>
+                            <strong>GitHub:</strong> 
+                            <a href="https://github.com/thechelle13/PersonalPlannerClient" class="project-link">Client</a>, 
+                            <a href="https://github.com/thechelle13/PersonalPlannerAPI" class="project-link">API</a>
+                        </li>
+                        <li>
+                            <strong>Live Demo:</strong> 
+                            <a href="https://personal-planner-hryyx.ondigitalocean.app/" class="project-link">View App</a>
+                        </li>
                     </ul>
-                    <div>Deployed Project: <a href="https://personal-planner-hryyx.ondigitalocean.app/" class="project-link">https://personal-planner-hryyx.ondigitalocean.app/</a></div>
                 </div>
 
-                <div class="section">
+                <!-- Bake Shop -->
                 <div class="project">
-                    <h3>Bake Shop: front-end using code</h3>
+                    <h3>Bake Shop</h3>
                     <ul>
-                        <li>A project built in React using JS, HTML, and Tailwind to create a front-end app that provides information about the background, products, locations, and social links for a bake-shop.</li>                      
-                        <li>The link to explore the code on GitHub for this project is <a href="https://github.com/thechelle13/bake-shop" class="project-link">https://github.com/thechelle13/bake-shop</a>.</li>
+                        <li>Front-end app showcasing a fictional bake shop’s products and locations.</li>
+                        <li>Created using React and Tailwind CSS for a modern and engaging user experience.</li>
+                        <li>
+                            <strong>GitHub:</strong> 
+                            <a href="https://github.com/thechelle13/bake-shop" class="project-link">bake-shop</a>
+                        </li>
+                        <li>
+                            <strong>Live Demo:</strong> 
+                            <a href="https://offplumbakeshop-sty2x.ondigitalocean.app/" class="project-link">View App</a>
+                        </li>
                     </ul>
-                    <div>Deployed Project: <a href="https://offplumbakeshop-sty2x.ondigitalocean.app/" class="project-link">https://offplumbakeshop-sty2x.ondigitalocean.app/</a></div>
                 </div>
 
+                <!-- Bake Shop (No-Code) -->
                 <div class="project">
-                    <h3>Bake Shop: front-end using no code</h3>
+                    <h3>Bake Shop (No-Code)</h3>
                     <ul>
-                        <li>A project built using Google Sites to create a front-end app that provides client with a more personalized url address and ability to monitor, update themselves.</li>                      
-                        <li>The link to explore the no code for this deployed project is <a href="https://www.offplum.com" class="project-link">https://www.offplum.com</a>.</li>
+                        <li>Built with Google Sites, providing a customizable and user-friendly interface for non-technical users.</li>
+                        <li>
+                            <strong>Live Demo:</strong> 
+                            <a href="https://www.offplum.com" class="project-link">View Site</a>
+                        </li>
                     </ul>
-        
                 </div>
 
+                <!-- TechPower -->
                 <div class="project">
-                    <h3>TechPower Client and API:</h3>
+                    <h3>TechPower Client & API</h3>
                     <ul>
-                        <li>A Full Stack project using React, JS, Tailwind, Python, and Django to create a modern well-rounded project.</li>
-                        <li>The GitHub link to the code for the client side is <a href="https://github.com/thechelle13/tech-client" class="project-link">https://github.com/thechelle13/tech-client</a>, and for the API is <a href="https://github.com/thechelle13/tech-api" class="project-link">https://github.com/thechelle13/tech-api</a>.</li>
-                 
+                        <li>Full Stack project showcasing advanced features using React, Django, and Tailwind CSS.</li>
+                        <li>
+                            <strong>GitHub:</strong> 
+                            <a href="https://github.com/thechelle13/tech-client" class="project-link">Client</a>, 
+                            <a href="https://github.com/thechelle13/tech-api" class="project-link">API</a>
+                        </li>
+                        <li>
+                            <strong>Live Demo:</strong> 
+                            <a href="https://tech-client-er3ag.ondigitalocean.app/" class="project-link">View App</a>
+                        </li>
                     </ul>
-                    <div>Deployed Project: <a href="https://tech-client-er3ag.ondigitalocean.app/" class="project-link">https://tech-client-er3ag.ondigitalocean.app/</a></div>
-                </div>
-
-                 <div class="project">
-                    <h3>Personal Planner Client and API:</h3>
-                    <ul>
-                        <li>A Full Stack project using React, JS, Tailwind, Python, and Django to create a modern well-rounded project.</li>
-                        <li>The GitHub link to the code for the client side is <a href="https://github.com/thechelle13/PersonalPlannerClient" class="project-link">https://github.com/thechelle13/PersonalPlannerClient</a>, and for the API is <a href="https://github.com/thechelle13/PersonalPlannerAPI" class="project-link">https://github.com/thechelle13/PersonalPlannerAPI</a>.</li>
-                 
-                    </ul>
-                    <div>Deployed Project: <a href="https://personal-planner-hryyx.ondigitalocean.app/" class="project-link">https://personal-planner-hryyx.ondigitalocean.app/</a></div>
                 </div>
             </div>
         </div>
