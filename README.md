@@ -11,11 +11,10 @@ Practice Deploy is a project created to demonstrate my initial deployment experi
 ## Home Page
 
 - **Features:**
-  - Displays a welcoming message along with an image of Nashville, captured by myself.
+  - Displays a welcoming message along with an image of Nashville personally taken.
   - Provides information about the website being a static site built with GitHub Pages, following the deployment guidelines provided by GitHub.
   - Showcases various projects, serving as a platform for learning web development techniques and best practices.
-  - Includes an audio player to play a song by Dinah Shore, a local Tennessee singer, actress, and television personality from the 1950s, born in Winchester, TN.
-
+ 
 - **Purpose:** 
   - Introduces visitors to the website and its purpose.
   - Highlights my skills in building static sites using HTML, CSS, and JavaScript.
