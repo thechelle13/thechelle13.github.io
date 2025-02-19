@@ -1,0 +1,145 @@
+/* Resume container styling */
+.resume-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    animation: fadeIn 0.8s ease forwards;
+}
+
+/* Profile section styling */
+.profile {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.profile h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.profile h2 {
+    font-size: 1.5rem;
+    color: #3498db;
+    margin-bottom: 1rem;
+}
+
+.profile p {
+    font-size: 1rem;
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+.profile a.resume-link {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.profile a.resume-link:hover {
+    color: #2980b9;
+}
+
+/* Section styling */
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h3 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+/* Tech skills grid styling */
+.tech-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 1rem;
+    font-size: 1rem;
+    color: #7f8c8d;
+}
+
+.tech-grid span {
+    background: #e3f2fd;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.tech-grid span:hover {
+    transform: translateY(-4px);
+    background: #d1e9fc;
+}
+
+/* Job section styling */
+.job {
+    margin-bottom: 2rem;
+}
+
+.job h4 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.job p {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 0.5rem;
+}
+
+.job ul {
+    padding-left: 1.5rem;
+    list-style: disc;
+}
+
+.job ul li {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 0.5rem;
+    line-height: 1.6;
+}
+
+/* Horizontal rule styling */
+hr {
+    border: none;
+    border-top: 2px solid #e3f2fd;
+    margin: 2rem 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .resume-container {
+        padding: 1.5rem;
+    }
+
+    .profile h1 {
+        font-size: 2rem;
+    }
+
+    .profile h2 {
+        font-size: 1.2rem;
+    }
+
+    .tech-grid {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+
+    .job h4 {
+        font-size: 1rem;
+    }
+
+    .job p, .job ul li {
+        font-size: 0.9rem;
+    }
+}
