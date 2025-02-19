@@ -71,7 +71,7 @@ function About() {
                         <li>Built with Google Sites, providing a customizable and user-friendly interface for non-technical users.</li>
                         <li>
                             <strong>Live Demo:</strong> 
-                            <a href="https://www.offplum.com" class="project-link">View Site</a>
+                            <a href="https://offplumbakeshop.square.site/" class="project-link">View Site</a>
                         </li>
                     </ul>
                 </div>
