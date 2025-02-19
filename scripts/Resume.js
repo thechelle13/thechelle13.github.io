@@ -45,6 +45,28 @@ function Resume() {
             <h3>Professional Experience</h3>
 
             <div class="job">
+                <h4>Freelance Developer</h4>
+                <p>2024 - Present</p>
+                <ul>
+                    <li>Designed and deployed responsive websites for small businesses</li>
+                    <li>Collaborated with clients to gather requirements and deliver tailored solutions</li>
+                    <li>Optimized website performance and implemented SEO strategies</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h4>Teaching Assistant</h4>
+                <p>Nashville Software School Jumpstarts | Jumpstart 43 | Feb - Mar '24</p>
+                <ul>
+                    <li>Guided student projects, providing hands-on support and problem-solving assistance</li>
+                    <li>Taught key concepts in HTML, CSS, JavaScript, jQuery, and Bootstrap</li>
+                    <li>Clarified lessons and reinforced learning for students needing additional guidance</li>
+                    <li>Provided individual advice on development best practices and career growth</li>
+                    <li>Evaluated student progress and gave feedback to NSS on their readiness for advanced courses</li>
+                </ul>
+            </div>
+
+            <div class="job">
                 <h4>Nashville Software School: Software Developer Apprentice</h4>
                 <p>Feb 2023 - Jan 2024</p>
                 <ul>
@@ -79,7 +101,6 @@ function Resume() {
                 </ul>
             </div>
 
-
             <div class="job">
                 <h4>EZPAWN SERVICE, S.A. DE C.V.: Pawn Broker</h4>
                 <p>2014 - 2016</p>
@@ -89,8 +110,41 @@ function Resume() {
                     <li>Assisted in opening and closing store operations</li>
                 </ul>
             </div>
+        </div>
 
-        
+        <div class="section">
+            <h3>Education</h3>
+
+            <div class="education-item">
+                <h4>Nashville Software School</h4>
+                <p>Full Stack Web Development Certificate, 2024</p>
+                <p>Advanced SQL for Developers, March 2024 - April 2024</p>
+            </div>
+
+            <div class="education-item">
+                <h4>Volunteer State Community College</h4>
+                <p>Pursuing a Computer Information Technology Technical Certificate and an A.A.S. in Programming</p>
+                <p>Total Credits Earned toward A.A.S. in Programming: 72</p>
+                <p>Expected Graduation for Technical Certificate: 2026</p>
+            </div>
+        </div>
+
+        <div class="section">
+           <h3>Certifications</h3>
+<ul>
+    <li>Full Stack Web Development - Nashville Software School, Jan 2024</li>
+    <li>
+        <a href="https://www.freecodecamp.org/certification/MJTotherow13/responsive-web-design" target="_blank" class="resume-link">
+            Responsive Web Design
+        </a> - freeCodeCamp.com, Apr 2024
+    </li>
+    <li>
+        <a href="https://www.freecodecamp.org/certification/MJTotherow13/javascript-algorithms-and-data-structures-v8" target="_blank" class="resume-link">
+            JavaScript Algorithms and Data Structures
+        </a> - freeCodeCamp.com, Jan 2025
+    </li>
+</ul>
+
         </div>
     </div>
     `;
