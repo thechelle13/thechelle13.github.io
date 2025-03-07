@@ -40,10 +40,7 @@ function About() {
                             <a href="https://github.com/thechelle13/PersonalPlannerClient" class="project-link">Client</a>, 
                             <a href="https://github.com/thechelle13/PersonalPlannerAPI" class="project-link">API</a>
                         </li>
-                        <li>
-                            <strong>Live Demo:</strong> 
-                            <a href="https://personal-planner-hryyx.ondigitalocean.app/" class="project-link">View App</a>
-                        </li>
+                       
                     </ul>
                 </div>
 
@@ -64,18 +61,7 @@ function About() {
                     </ul>
                 </div>
 
-                <!-- Bake Shop (No-Code) -->
-                <div class="project">
-                    <h3>Bake Shop (No-Code)</h3>
-                    <ul>
-                        <li>Built with Google Sites, providing a customizable and user-friendly interface for non-technical users.</li>
-                        <li>
-                            <strong>Live Demo:</strong> 
-                            <a href="https://offplumbakeshop.square.site/" class="project-link">View Site</a>
-                        </li>
-                    </ul>
-                </div>
-
+               
                 <!-- TechPower -->
                 <div class="project">
                     <h3>TechPower Client & API</h3>
